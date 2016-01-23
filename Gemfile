@@ -7,6 +7,7 @@ gem 'rails', '4.2.4'
  group :production do
    gem 'pg'
    gem 'rails_12factor'
+   gem 'puma', '~> 2.15', '>= 2.15.3'
  end
  
  group :development do
